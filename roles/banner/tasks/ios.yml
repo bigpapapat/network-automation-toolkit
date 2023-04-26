@@ -1,6 +1,5 @@
 ---
 - name: ADD THE IOS BANNER
   ios_banner:
-    text: webhook test
+    text: "{{ banner_text }}"
     banner: "{{ banner_type }}"
-    state: present
