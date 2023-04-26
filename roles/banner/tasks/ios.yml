@@ -3,3 +3,4 @@
   ios_banner:
     text: webhook test
     banner: "{{ banner_type }}"
+    state: present
